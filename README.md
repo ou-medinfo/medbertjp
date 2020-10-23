@@ -30,7 +30,7 @@ For just using the models:
 + [SentencePiece](https://github.com/google/sentencepiece/) would be automatically installed with the transformers.
 
 ## Usage
-Please check code examples of [`tokenization_example.ipynb`](./tokenization_example.ipynb).
+Please check code examples of [`tokenization_example.ipynb`](./tokenization_example.ipynb), or try to use [`example_google_coab.ipynb`](./example_google_colab.ipynb) on [Google Colab](https://colab.research.google.com/).
 
 ## Funding
 This work was supported by Council for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation Promotion Program (SIP), "Innovative AI Hospital System" (Funding Agency: National Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
