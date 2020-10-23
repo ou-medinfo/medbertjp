@@ -1,5 +1,5 @@
 # Japanese Medical BERT
-Trials of pre-trained BERT models for the medical domain in Japanese.
+Trials of pre-trained BERT models for the medical domain in Japanese.  
 The medical corpora are scraped for academic use from [Today's diagnosis and treatment : premium](https://www.igaku-shoin.co.jp/bookDetail.do?book=89056), which consists of 15 digital resources for clinicians in Japanese published by [IGAKU-SHOIN Ltd.](https://www.igaku-shoin.co.jp/).  
 The general corpora are extracted from a Wikipedia dump file (jawiki-20190901).
 
