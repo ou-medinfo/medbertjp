@@ -1,0 +1,5 @@
+fugashi==1.0.5
+ipadic==1.0.0
+pytorch==1.1.0
+sentencepiece==0.1.85
+transformers==2.11.0
