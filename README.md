@@ -1,11 +1,22 @@
 # Japanese Medical BERT
 Trials of pre-trained BERT models for the medical domain in Japanese.
 
+# Our demonstration models  
+  * [medBERTjp - MeCab-IPAdic](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-mi)
+    - pre-trained this model following [the Japanese BERT model](https://github.com/cl-tohoku/bert-japanese/).
+    - max_seq_length=128
+  * [medBERTjp - MeCab-IPAdic-NEologd-JMeDic](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-minj)
+    - change dictionaries for MeCab and pre-trained this model.
+    - max_seq_length=128
+  * [medBERTjp - SentencePiece](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-sp)
+    - use tokenization by SentencePiece.
+    - max_seq_length=128
+
 # Requirements
 For just using the models:  
 + [Transformers](https://github.com/huggingface/transformers/) (>=2.11.0)
 + [fugashi](https://github.com/polm/fugashi) with [MeCab](https://taku910.github.io/mecab/)
-    - [ipadic](https://github.com/polm/ipadic-py), [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/), and [J-MeDic](http://sociocom.jp/~data/2018-manbyo/): if, required.
+    - [ipadic](https://github.com/polm/ipadic-py), [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/), and [J-MeDic](http://sociocom.jp/~data/2018-manbyo/): if required.
 + [SentencePiece](https://github.com/google/sentencepiece/) would be already installed with the transformers.
 
 # Usage
