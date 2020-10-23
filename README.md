@@ -40,4 +40,4 @@ This work was supported by Council for Science, Technology and Innovation (CSTI)
 They are freely available for academic purpose or individual research, but restricted for commecial use.  
 
 
-The codes in this repository are distributed under the MIT License.
+The codes in this repository are licensed under the Apache License, Version2.0.
