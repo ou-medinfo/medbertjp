@@ -6,19 +6,19 @@ The general corpora are extracted from a Wikipedia dump file (jawiki-20190901)ã€
 ## Our demonstration models  
   * [medBERTjp - MeCab-IPAdic](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-mi)
     - pre-trained model following [MeCab-IPAdic-tokenized Japanese BERT model](https://github.com/cl-tohoku/bert-japanese/).
-    - tokenizer: [MeCab](https://taku910.github.io/mecab/)
+    - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + Byte Pair Encoding (BPE)
     - [ipadic-py](https://github.com/polm/ipadic-py), or manual install of IPAdic is required.
     - max_seq_length=128
   * [medBERTjp - Unidic-2.3.0] will be uploaded soon.
-    - tokenizer: [MeCab](https://taku910.github.io/mecab/)
+    - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + BPE
     - Unidic v2.3.0+2020-10-08 via [unidic-py](https://github.com/polm/unidic-py) is required.
     - max_seq_length=128
   * [medBERTjp - MeCab-IPAdic-NEologd-JMeDic](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-minj)
-    - tokenizer: [MeCab](https://taku910.github.io/mecab/)
+    - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + BPE
     - install of both [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/) and [J-MeDic (MANBYO_201907_Dic-utf8.dic)](http://sociocom.jp/~data/2018-manbyo/) is required.
     - max_seq_length=128
   * [medBERTjp - SentencePiece](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-sp)
-    - tokenizer: [SentencePiece](https://github.com/google/sentencepiece/)
+    - Japanese tokenizer: [SentencePiece](https://github.com/google/sentencepiece/)
     - use customized tokenization for the medical domain by SentencePiece following [Sentencepiece Japanese BERT model](https://github.com/yoheikikuta/bert-japanese)
     - max_seq_length=128
 
