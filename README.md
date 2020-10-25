@@ -27,7 +27,7 @@ For just using the models:
 + [Transformers](https://github.com/huggingface/transformers/) (>=2.11.0)
 + [fugashi](https://github.com/polm/fugashi), a Cython wrapper for [MeCab](https://taku910.github.io/mecab/)
     - [ipadic](https://github.com/polm/ipadic-py), [unidic-py](https://github.com/polm/unidic-py), [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/), and [J-MeDic](http://sociocom.jp/~data/2018-manbyo/): if required.
-+ [SentencePiece](https://github.com/google/sentencepiece/) would be automatically installed with the transformers.
++ [SentencePiece](https://github.com/google/sentencepiece/) would be automatically installed with [Transformers](https://github.com/huggingface/transformers/).
 
 ## Usage
 Please check code examples of [`tokenization_example.ipynb`](./tokenization_example.ipynb), or try to use [`example_google_colab.ipynb`](./example_google_colab.ipynb) on [Google Colab](https://colab.research.google.com/).
