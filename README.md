@@ -9,7 +9,7 @@ The general corpora were extracted from a Wikipedia dump file (jawiki-20190901) 
     - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + Byte Pair Encoding (BPE)
     - [ipadic-py](https://github.com/polm/ipadic-py), or manual install of IPAdic is required.
     - max_seq_length=128
-  * [medBERTjp - Unidic-2.3.0] will be uploaded soon.
+  * [medBERTjp - Unidic-2.3.0](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-mu)
     - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + BPE
     - Unidic v2.3.0+2020-10-08 via [unidic-py](https://github.com/polm/unidic-py) is required.
     - max_seq_length=128
