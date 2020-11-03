@@ -18,8 +18,8 @@ The general corpora were extracted from a Wikipedia dump file (jawiki-20190901) 
     - install of both [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/) and [J-MeDic (MANBYO_201907_Dic-utf8.dic)](http://sociocom.jp/~data/2018-manbyo/) is required.
     - max_seq_length=128
   * [medBERTjp - SentencePiece](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-sp)
-    - Japanese tokenizer: [SentencePiece](https://github.com/google/sentencepiece/)
-    - use customized tokenization for the medical domain by SentencePiece following [Sentencepiece Japanese BERT model](https://github.com/yoheikikuta/bert-japanese)
+    - Japanese tokenizer: [SentencePiece](https://github.com/google/sentencepiece/) following [Sentencepiece Japanese BERT model](https://github.com/yoheikikuta/bert-japanese)
+    - use customized tokenization for the medical domain by SentencePiece
     - max_seq_length=128
 
 ## Requirements
