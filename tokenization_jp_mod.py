@@ -157,7 +157,7 @@ class BertJapaneseTokenizer(BertTokenizer):
             **mecab_kwargs**: (`optional`) dict passed to `MecabTokenizer` constructor (default None)
         """
         super(BertTokenizer, self).__init__(
-            unk_token=unk_token,
+            unk_token='<unk>' if word_tokenizer_type == 'sp' else '[UNK]',
             sep_token=sep_token,
             pad_token=pad_token,
             cls_token=cls_token,
