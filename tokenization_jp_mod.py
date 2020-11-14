@@ -450,7 +450,7 @@ class SentencePiecepTokenizer:
         """Tokenizes a piece of text."""
         if self.normalize_text:
             text = convert_to_unicode(text)
-            text = unicodedata.normalize("NFKC", text)
+            # text = unicodedata.normalize("NFKC", text)
 
         never_split = self.never_split + (never_split if never_split is not None else [])
         
