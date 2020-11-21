@@ -15,7 +15,7 @@ The general corpora were extracted from a Wikipedia dump file (jawiki-20190901) 
     - max_seq_length=128
   * [medBERTjp - MeCab-IPAdic-NEologd-JMeDic](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-minj)
     - Japanese tokenizer: [MeCab](https://taku910.github.io/mecab/) + BPE
-    - install of both [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/) and [J-MeDic (MANBYO_201907_Dic-utf8.dic)](http://sociocom.jp/~data/2018-manbyo/) is required.
+    - install of both [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/) and [J-MeDic (MANBYO_201907_Dic-utf8.dic)](https://sociocom.naist.jp/manbyo-dic-en/) is required.
     - max_seq_length=128
   * [medBERTjp - SentencePiece](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.2-sp)
     <br>(*Old: [v0.1-sp](https://github.com/ou-medinfo/medbertjp/releases/tag/v0.1-sp)*)
@@ -27,7 +27,7 @@ The general corpora were extracted from a Wikipedia dump file (jawiki-20190901) 
 For just using the models:  
 + [Transformers](https://github.com/huggingface/transformers/) (>=2.11.0)
 + [fugashi](https://github.com/polm/fugashi), a Cython wrapper for [MeCab](https://taku910.github.io/mecab/)
-    - [ipadic](https://github.com/polm/ipadic-py), [unidic-py](https://github.com/polm/unidic-py), [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/), and [J-MeDic](http://sociocom.jp/~data/2018-manbyo/): if required.
+    - [ipadic](https://github.com/polm/ipadic-py), [unidic-py](https://github.com/polm/unidic-py), [mecab-ipadic-NEologd](https://github.com/neologd/mecab-ipadic-neologd/), and [J-MeDic](https://sociocom.naist.jp/manbyo-dic-en/): if required.
 + [SentencePiece](https://github.com/google/sentencepiece/) would be automatically installed with [Transformers](https://github.com/huggingface/transformers/).
 
 ## Usage
